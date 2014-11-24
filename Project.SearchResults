@@ -1,0 +1,27 @@
+---- delayUS Matches (26 in 5 files) ----
+ADS1299.c (user):	//delayUS(1);                                                   // Short Delay before invoking the SPI Port
+ADS1299.c (user):	//delayUS(1);
+ADS1299.c (user):	//delayUS(10);
+ADS1299.c (user):	//delayUS(10);
+ADS1299.c (user):    //delayUS(20);  
+ADS1299.c (user):	delayUS(10);                                              // Small Delay   
+ADS1299.c (user):    delayUS(40);
+ADS1299.c (user):	delayUS(10);                                                      
+ADS1299.c (user):	delayUS(10); 
+ADS1299.c (user):	delayUS(70);
+ADS1299.c (user): 	delayUS(40);
+ADS1299.c (user):	//delayUS(40);
+ADS1299.c (user)://	delayUS(10);
+ADS1299.c (user):	//delayUS(40);
+ADS1299.c (user)://    delayUS(40);
+ADS1299.c (user):    //delayUS(40);   
+ADS1299.c (user):    delayUS(20);                                                   // Small Delay   
+ADS1299.c (user):    delayUS(40);
+ADS1299.c (user):	delayUS(40);
+Delay.c (user):	delayUS(nus);
+Global.c (user):void delayUS(unsigned int x)
+Global.h (user):EXTERN void delayUS(unsigned int x);
+Stm32f10x_it.c (sys):		delayUS(500);
+Stm32f10x_it.c (sys):		delayUS(500);
+Stm32f10x_it.c (sys):		delayUS(500);
+Stm32f10x_it.c (sys):		delayUS(500);
