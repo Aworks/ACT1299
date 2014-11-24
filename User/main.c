@@ -145,23 +145,19 @@ void Task_1s(void)
 	{
 		GPIO_ResetBits(LEDPOTR, SPPLINK_PIN);
 	}
-	
-	
 }
-
 
 int main(void)
 {
 	U8 ADS1x9x_DEVICE_SLOT = 0;
+
 	InitSystem();
 	InitGlobal();
 	Puts("\r\n System Init End");
 	
 	Puts("\r\n ADS1x9x_DEVICE_SLOT");
 
-	ADS1x9x_DEVICE_SLOT = init_ADS1x9x (ADS1x9x_DEVICE_SLOT);
-	
-
+	ADS1x9x_DEVICE_SLOT = init_ADS1x9x(ADS1x9x_DEVICE_SLOT);
 	
 	printf("\r\n init_ADS1x9x %d", ADS1x9x_DEVICE_SLOT);
 
@@ -178,6 +174,4 @@ int main(void)
     }
 
 }
-
-
 
